@@ -83,7 +83,91 @@ My core strengths lie in **system design, backend architecture, async processing
 - AWS: EC2, ECS Fargate, EKS, Lambda, RDS, S3, CloudFront, SQS, SNS, IAM, VPC
 - Docker & Kubernetes
 - CI/CD with GitHub Actions & GitLab CI
+## 🧪 Personal & Side Projects
 
+### 🔥 YayFans — Creator Subscription & Paid Content Platform
+
+**Description:**  
+Designed and built a fan–creator platform inspired by Fanvue/OnlyFans, focusing on secure paid content delivery, subscriptions, real-time interactions, and scalable backend architecture.
+
+**Tech Stack:**  
+React, TypeScript, Redux Toolkit, Node.js, Express, PostgreSQL, Prisma, Socket.IO, AWS, RTK Query
+
+**Key Engineering Highlights:**  
+- Implemented creator subscriptions (monthly / multi-duration plans)  
+- Designed paid media unlock flow with token-based access control  
+- Built real-time chat & notifications using WebSockets  
+- Implemented role-based access control (creator vs fan vs admin)  
+- Designed scalable media handling and secure content visibility logic  
+
+---
+
+### ⚡ Live Code Editor & JavaScript Runtime Visualizer
+
+**Description:**  
+Built an interactive live code editor and JavaScript runtime visualizer to demonstrate how the JS engine, event loop, call stack, microtask queue, and macrotask queue work in real time.
+
+**Tech Stack:**  
+React, TypeScript, Monaco Editor, Web Workers, Tailwind CSS, Shadcn/UI
+
+**Key Engineering Highlights:**  
+- Live code execution with isolated runtime handling  
+- Visualized call stack, event loop, microtask & macrotask queues  
+- Step-by-step execution with animated explanations  
+- Designed for teaching low-level JavaScript internals  
+- Modular architecture to extend into TypeScript & Web API visualization  
+
+---
+
+### 🧠 SpendSir AI (SpendSenseAI) — AI-Powered Expense & Finance Platform
+
+**Description:**  
+Designed an AI-driven personal finance platform that goes beyond expense tracking to provide intelligent insights, predictions, and savings recommendations.
+
+**Tech Stack:**  
+React, TypeScript, FastAPI, PostgreSQL, AWS, Cognito, RTK Query, AI/RAG pipelines
+
+**Key Engineering Highlights:**  
+- Secure authentication using AWS Cognito (OAuth2 + PKCE)  
+- Expense categorization and trend analysis  
+- AI-based spending insights & optimization suggestions  
+- Designed scalable backend with token-based auth and clean architecture  
+- Focus on future mobile extensibility (iOS/Android ready backend)  
+
+---
+
+### 🧠 AI Real-Time Collaborative Code & Workspace
+
+**Description:**  
+Built a real-time collaborative editor/workspace supporting concurrent multi-user editing with conflict-free synchronization and AI assistance.
+
+**Tech Stack:**  
+React, Rust, WebSockets, CRDTs, Redis, PostgreSQL, AWS ECS/EKS
+
+**Key Engineering Highlights:**  
+- CRDT-based real-time sync (offline-friendly)  
+- Presence indicators and live cursors  
+- AI-assisted summaries, search, and action items  
+- Backend designed using Clean Architecture and CQRS (basic)  
+- Production-ready deployment using Docker and AWS  
+
+---
+
+### 📊 JIRA Automation & Analytics Tools
+
+**Description:**  
+Built internal tools to automate JIRA data extraction, due-date tracking, and analytics to reduce manual reporting overhead.
+
+**Tech Stack:**  
+React, Node.js, Express, PostgreSQL, MySQL, JIRA REST APIs, Metabase
+
+**Key Engineering Highlights:**  
+- Automated scheduled data sync using cron jobs  
+- Built due-date tracking & escalation workflows  
+- Designed analytics dashboards for operational visibility  
+- Reliable retry handling and structured logging  
+
+---
 ---
 
 ## 🏗️ Key Projects (Selected)
