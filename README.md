@@ -274,17 +274,19 @@ I focus on **correctness first**, followed by **scalability, reliability, and co
 
 ---
 
-## ☁️ AWS Architecture Mapping
+## ☁️ Cloud / Infra Architecture Mapping (AWS • GCP • Local)
 
-| Layer | Services |
-|------|---------|
-| API | ALB / API Gateway |
-| Compute | ECS Fargate / EKS / Lambda |
-| Async | SQS, SNS |
-| Database | RDS PostgreSQL |
-| Cache | Redis |
-| Storage | S3 + CloudFront |
-| Observability | CloudWatch |
+| Layer | AWS | GCP | Local / Dev (Infra) |
+|------|-----|-----|----------------------|
+| API | ALB / API Gateway | Cloud Load Balancing / API Gateway | Nginx / Traefik |
+| Compute | ECS Fargate / EKS / Lambda | Cloud Run / GKE / Cloud Functions | Docker Compose / Kubernetes (kind/minikube) |
+| Async | SQS / SNS | Pub/Sub / Cloud Tasks | Redis Streams / RabbitMQ (optional) |
+| Database | RDS (PostgreSQL/MySQL) | Cloud SQL (PostgreSQL/MySQL) | PostgreSQL/MySQL (Docker) |
+| Cache | ElastiCache (Redis) | Memorystore (Redis) | Redis (Docker) |
+| Storage + CDN | S3 + CloudFront | GCS + Cloud CDN | MinIO / Local FS + Nginx |
+| Observability | CloudWatch | Cloud Logging + Cloud Monitoring | Prometheus + Grafana + Loki (optional) |
+| Secrets | Secrets Manager / SSM Parameter Store | Secret Manager | .env + Docker secrets (or Vault) |
+| CI/CD | GitHub Actions / CodePipeline | Cloud Build | GitHub Actions (local deploy scripts) |
 
 ---
 
