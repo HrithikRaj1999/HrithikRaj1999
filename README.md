@@ -31,16 +31,9 @@ Senior Software Engineer – Full Stack | System Design | Cloud & Distributed Sy
 
 ## 🚀 Professional Summary
 
-I am a **Senior Full-Stack Software Engineer with 5+ years of experience** building, scaling, and supporting **production-grade web applications and enterprise platforms** used by real customers at scale.
+I am a **Senior Full-Stack Software Engineer with 5+ years of experience** building and maintaining **production-grade web applications and enterprise platforms**. I work across the entire software lifecycle — from requirements and system design to implementation, deployment, monitoring, and production support.
 
-My expertise spans:
-- Frontend engineering with React-based architectures
-- Backend services & APIs
-- Distributed systems & async processing
-- Cloud deployments on AWS
-- Performance, reliability, and security hardening
-
-I am comfortable **owning features end-to-end** — from requirements and system design to implementation, deployment, monitoring, and production support.
+My core strengths lie in **system design, backend architecture, async processing, cloud-native development, and performance optimization**. I enjoy solving real engineering problems related to scale, reliability, security, and long-term maintainability.
 
 ---
 
@@ -56,7 +49,7 @@ I am comfortable **owning features end-to-end** — from requirements and system
 
 ---
 
-## 🧩 Technical Skill Set
+## 🧩 Technical Skills
 
 ### 👨‍💻 Programming Languages
 - JavaScript (ES6+)
@@ -90,95 +83,117 @@ I am comfortable **owning features end-to-end** — from requirements and system
 - AWS: EC2, ECS Fargate, EKS, Lambda, RDS, S3, CloudFront, SQS, SNS, IAM, VPC
 - Docker & Kubernetes
 - CI/CD with GitHub Actions & GitLab CI
-- Infrastructure monitoring & alerts
-
-### 🔍 Observability
-- CloudWatch Logs & Metrics
-- Dashboards & Alerts
-- Structured logging
-- OpenTelemetry (basic)
 
 ---
 
-## 🏢 Work Experience
+## 🏗️ Key Projects (Selected)
 
-### 🔹 Siemens (Intelizign Lifecycle Pvt. Ltd.) — Tech Lead  
-**Apr 2025 – Present | Pune, India**
+### 1️⃣ Enterprise Process Search & Access-Control Platform (Siemens – Riffynx)
 
-- Working on enterprise product **Riffynx**, supporting **1,000+ active users** across large process libraries.
-- Designed and implemented **server-side search with pagination & deterministic sorting**, improving UX for large datasets.
-- Built **DocumentDB-compatible aggregation pipelines** for tag-based AND filtering across **millions of records**.
-- Optimized performance by **reducing index footprint**, reusing indexes, and tuning selectors/projections.
-- Enforced **query-level authorization (RBAC)** to prevent unauthorized data access.
-- Added **input validation, clamping, and early-return guardrails** to protect backend services.
-- Delivered **backward-compatible APIs** with strong test coverage to minimize regression risk.
-- Built a **reusable date-picker component library** adopted by **15+ applications**, reducing defects by **80%**.
-- Optimized Elasticsearch queries for **latency, relevance, and caching**.
-- Improved frontend performance via memoization and code-splitting, enhancing Core Web Vitals.
+**Description:**  
+Designed and enhanced a large-scale enterprise search platform supporting thousands of active users across extensive process libraries. The system enables secure, fast, and deterministic search over complex datasets with strict authorization constraints.
 
----
+**Tech Stack:**  
+React, TypeScript, Node.js, Express.js, MeteorJS, MongoDB / DocumentDB, Elasticsearch, AWS
 
-### 🔹 NIIT Limited — Software Engineer  
-**May 2024 – Apr 2025 | Gurugram, India**
-
-- Designed and deployed a **Web Accessibility Testing Platform** aligned with **WCAG 2.2**.
-- Built tools using **React, Node.js, Puppeteer, Cheerio, Axe**, generating Excel reports via **XLSX**.
-- Developed **Color Contrast & OCR Testing tools** using TypeScript and Python (PyTesseract).
-- Implemented real-time logs using Socket.IO and alerts via Slack/Teams/Email.
-- Improved performance using MongoDB query optimization and Node.js caching.
-- Containerized applications using Docker and deployed on **AWS EKS with 99% uptime**.
-- Automated workflows including **JIRA Due Date Tracker** and **JIRA Data Miner**.
-- Mentored engineers through code reviews and design discussions.
+**Highlights:**  
+- Server-side search with pagination and deterministic sorting  
+- DocumentDB aggregation pipelines for tag-based AND filtering across millions of records  
+- Query-level RBAC authorization to prevent unauthorized access  
+- Index and projection optimizations to improve performance and reduce cost  
+- Elasticsearch tuning for latency and relevance  
 
 ---
 
-### 🔹 Tridiagonal Software Pvt. Ltd. — Software Engineer  
-**Sep 2022 – May 2024 | Pune, India**
+### 2️⃣ Web Accessibility Testing Platform (WCAG 2.2)
 
-- Engineered a cloud-based **MixIT Chemical Fluids Analysis Platform**.
-- Delivered real-time simulation dashboards using Redux Toolkit, WebRTC, CanvasJS, and WebSockets.
-- Reduced simulation execution time by **60%** via refactoring and memoization.
-- Improved API performance by **40%** through indexing and caching.
-- Strengthened security using JWT authentication.
-- Ensured availability using MongoDB replica sets.
-- Mentored junior engineers and improved code quality.
+**Description:**  
+Built an automated accessibility testing platform aligned with WCAG 2.2 standards, enabling teams to validate accessibility compliance and generate audit-ready reports.
+
+**Tech Stack:**  
+React, Node.js, Express.js, Puppeteer, Cheerio, Axe-core, TypeScript, AWS
+
+**Highlights:**  
+- Automated accessibility scans using headless browsers  
+- Rule-based checks using Axe-core  
+- Excel report generation for audits and compliance  
+- Deployed on AWS and adopted by multiple teams  
 
 ---
 
-### 🔹 Loft Life Growing Services Pvt. Ltd. — Contract Engineer  
-**Apr 2020 – May 2022 | Remote**
+### 3️⃣ Color Contrast & OCR Testing Tool
 
-- Built and maintained full-stack web applications using React, Node.js, Express, MongoDB.
-- Developed company portfolio website and customer portal.
-- Implemented authentication and email setup using company domain.
-- Optimized database queries and caching mechanisms.
+**Description:**  
+Developed a specialized tool to validate color contrast ratios and extract text using OCR across multiple content formats, improving accessibility and content quality checks.
+
+**Tech Stack:**  
+TypeScript, Python, PyTesseract, Node.js, Socket.IO, MongoDB
+
+**Highlights:**  
+- Color contrast validation for HTML, images, GIFs, and EPUB files  
+- OCR-based text extraction and analysis  
+- Real-time progress logs via Socket.IO  
+- Alert integrations with Slack, Teams, and Email  
+
+---
+
+### 4️⃣ JIRA Automation Suite (Due Date Tracker & Data Miner)
+
+**Description:**  
+Built automation tools to extract, track, and analyze JIRA data, reducing manual effort and enabling data-driven project insights.
+
+**Tech Stack:**  
+React, Node.js, Express.js, MySQL, PostgreSQL, JIRA REST APIs, AWS RDS, Metabase
+
+**Highlights:**  
+- Automated JIRA issue synchronization using scheduled jobs  
+- Due-date tracking and escalation workflows  
+- Analytics dashboards using Metabase  
+- Reliable scheduling with cron and retry handling  
+
+---
+
+### 5️⃣ AI Real-Time Collaborative Workspace
+
+**Description:**  
+Designed a real-time collaborative workspace supporting multi-user editing with conflict-free synchronization and AI-assisted insights.
+
+**Tech Stack:**  
+React, Rust, WebSockets, CRDTs, PostgreSQL, Redis, AWS (ECS/EKS)
+
+**Highlights:**  
+- CRDT-based real-time synchronization  
+- Presence indicators and live cursor tracking  
+- Clean Architecture with CQRS (basic)  
+- AI-assisted summaries and search using RAG  
 
 ---
 
 ## 🧠 System Design & Architecture
 
-### Design Topics I’m Comfortable With
-- Load balancing & horizontal scaling
-- Pagination, caching, rate limiting
-- Event-driven systems
-- Async processing with queues
-- Retry strategies & DLQ handling
-- Idempotent APIs
-- Secure service-to-service communication
+I focus on **correctness first**, followed by **scalability, reliability, and cost efficiency**.
 
-### Systems I Can Design
-- URL Shortener (1M → 1B scale)
-- Real-time Chat System
-- Notification & Fanout System
-- Metrics Logging Platform
-- Access-Controlled Search Systems
+**Comfortable With:**
+- Load balancing & horizontal scaling  
+- Pagination, caching, rate limiting  
+- Event-driven architectures  
+- Async processing using queues  
+- Retry strategies & DLQ handling  
+- Secure, idempotent APIs  
+
+**Systems I Can Design:**
+- URL Shortener (1M → 1B scale)  
+- Real-time Chat System  
+- Notification & Fanout System  
+- Metrics Logging Platform  
+- Access-controlled Search Systems  
 
 ---
 
 ## ☁️ AWS Architecture Mapping
 
-| Layer | AWS Services |
-|-----|--------------|
+| Layer | Services |
+|------|---------|
 | API | ALB / API Gateway |
 | Compute | ECS Fargate / EKS / Lambda |
 | Async | SQS, SNS |
@@ -189,24 +204,12 @@ I am comfortable **owning features end-to-end** — from requirements and system
 
 ---
 
-## 🧪 Personal Project
-
-### 🔥 AI Real-Time Collaborative Workspace (2026)
-- CRDT-based multi-user editor (offline-friendly)
-- Rust backend using Tokio + Axum/Actix
-- Clean Architecture & CQRS (basic)
-- AI Copilot using RAG
-- RBAC, rate limiting, audit logging
-- Deployed on AWS with Docker, ECS/EKS, PostgreSQL, Redis
-
----
-
 ## 🏆 Certifications & Recognition
 
-- 🏅 **AWS Certified Developer – Associate (DVA-C02)** — Score: 908/1000
-- 🏆 Team of the Quarter — NIIT Limited (Dec 2024)
-- 🏆 Best Debut Award — NIIT Limited (Nov 2024)
-- 🏆 Outstanding Performance — Tridiagonal Software (Mar 2024)
+- 🏅 AWS Certified Developer – Associate (DVA-C02)
+- 🏆 Team of the Quarter – NIIT Limited
+- 🏆 Best Debut Award – NIIT Limited
+- 🏆 Outstanding Performance – Tridiagonal Software
 
 ---
 
