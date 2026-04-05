@@ -1,312 +1,144 @@
 <h1 align="center">Hi 👋, I'm Hrithik Raj</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Senior+Full-Stack+Software+Engineer;System+Design+%7C+Microservices+%7C+Cloud;Event-Driven+Architecture+%7C+Async+Systems;Building+Reliable+Production+Platforms" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Senior+Full-Stack+Software+Engineer;Microservices+%7C+Distributed+Systems+%7C+Cloud;Event-Driven+Architecture+%7C+Scalable+Backend;Building+Reliable+Production+Platforms" />
 </p>
 
 <h3 align="center">
-Senior Software Engineer – Full Stack | System Design | Cloud & Distributed Systems
+Senior Software Engineer | Full Stack | Microservices | Cloud & Distributed Systems
 </h3>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/hrithik-raj-734a0b1aa">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
-  </a>
-  <a href="https://www.techieraj.online">
-    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel"/>
-  </a>
-  <a href="https://leetcode.com/write2hrithik/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode"/>
-  </a>
-  <a href="mailto:hrkraj99@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail"/>
-  </a>
-</p>
+---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=HrithikRaj1999&style=for-the-badge&color=blue" />
-</p>
+## Professional Summary
+
+Senior Full-Stack Software Engineer with 5+ years of experience building scalable web applications, backend systems, and enterprise platforms. Strong in **microservices, distributed systems, event-driven architecture, async processing, system design, and cloud deployment**. Focused on building secure, reliable, and production-ready systems.
 
 ---
 
-## 🚀 Professional Summary
+## Core Skills
 
-I am a **Senior Full-Stack Software Engineer with 5+ years of experience** building and maintaining **production-grade web applications and enterprise platforms**. I work across the entire software lifecycle — from requirements and system design to implementation, deployment, monitoring, and production support.
-
-My core strengths lie in **system design, backend architecture, async processing, cloud-native development, and performance optimization**. I enjoy solving real engineering problems related to scale, reliability, security, and long-term maintainability.
-
----
-
-## 🧠 Core Strengths
-
-- System Design & Architecture
-- Microservices & Event-Driven Systems
-- Async Processing (Queues, Workers)
+- Microservices Architecture
+- Distributed Systems
+- Event-Driven Systems
+- REST APIs & WebSockets
+- Async Processing, Queues, Workers
 - Caching & Performance Optimization
-- Security (RBAC, JWT, API hardening)
-- Observability & Production Debugging
-- CI/CD & Cloud Deployments
+- Security, RBAC, JWT
+- CI/CD, Docker, Kubernetes, AWS
 
 ---
 
-## 🧩 Technical Skills
+## Tech Stack
 
-### 👨‍💻 Programming Languages
-- JavaScript (ES6+)
-- TypeScript
-- Python
-- Go
-- SQL
-
-### 🌐 Frontend Engineering
-- React, Next.js
-- Redux Toolkit, RTK Query, React Query
-- Tailwind CSS, Material UI
-- Responsive UI & Accessibility
-- Performance optimization (memoization, code-splitting)
-
-### 🧠 Backend Engineering
-- Node.js, Express.js, MeteorJS
-- REST APIs, GraphQL
-- WebSockets, Socket.IO
-- Authentication & Authorization
-- Microservices architecture
-
-### 🗄 Databases & Search
-- PostgreSQL, MySQL
-- MongoDB, DocumentDB
-- Redis (caching)
-- Elasticsearch (indexing, relevance, aggregations)
-- Query optimization & indexing strategies
-
-### ☁️ Cloud & DevOps
-- AWS: EC2, ECS Fargate, EKS, Lambda, RDS, S3, CloudFront, SQS, SNS, IAM, VPC
-- Docker & Kubernetes
-- CI/CD with GitHub Actions & GitLab CI
-## 🧪 Personal & Side Projects
-
-### 🔥 YayFans — Creator Subscription & Paid Content Platform
-
-**Description:**  
-Designed and built a fan–creator platform inspired by Fanvue/OnlyFans, focusing on secure paid content delivery, subscriptions, real-time interactions, and scalable backend architecture.
-
-**Tech Stack:**  
-React, TypeScript, Redux Toolkit, Node.js, Express, PostgreSQL, Prisma, Socket.IO, AWS, RTK Query
-
-**Key Engineering Highlights:**  
-- Implemented creator subscriptions (monthly / multi-duration plans)  
-- Designed paid media unlock flow with token-based access control  
-- Built real-time chat & notifications using WebSockets  
-- Implemented role-based access control (creator vs fan vs admin)  
-- Designed scalable media handling and secure content visibility logic  
+**Languages:** JavaScript, TypeScript, Python, Go, SQL  
+**Frontend:** React, Next.js, Redux Toolkit, RTK Query, Tailwind CSS, Material UI  
+**Backend:** Node.js, Express.js, MeteorJS, GraphQL, Socket.IO  
+**Databases:** PostgreSQL, MySQL, MongoDB, DocumentDB, Redis, Elasticsearch  
+**Cloud/DevOps:** AWS, Docker, Kubernetes, ECS, EKS, Lambda, S3, RDS, SQS, SNS, GitHub Actions
 
 ---
 
-### ⚡ Live Code Editor & JavaScript Runtime Visualizer
+## Real-World Microservices & Scalable Projects
 
-**Description:**  
-Built an interactive live code editor and JavaScript runtime visualizer to demonstrate how the JS engine, event loop, call stack, microtask queue, and macrotask queue work in real time.
+### 1. Creator Subscription & Paid Content Platform
+Built a scalable fan-creator platform with subscription plans, paid media unlock flow, real-time chat, notifications, and role-based access control.
 
-**Tech Stack:**  
-React, TypeScript, Monaco Editor, Web Workers, Tailwind CSS, Shadcn/UI
+**Highlights:**
+- Subscription and payment-based content access
+- Real-time chat using WebSockets
+- Secure paid media visibility logic
+- Role-based access for creator, fan, and admin
+- Scalable media and backend design
 
-**Key Engineering Highlights:**  
-- Live code execution with isolated runtime handling  
-- Visualized call stack, event loop, microtask & macrotask queues  
-- Step-by-step execution with animated explanations  
-- Designed for teaching low-level JavaScript internals  
-- Modular architecture to extend into TypeScript & Web API visualization  
-
----
-
-### 🧠 SpendSir AI (SpendSenseAI) — AI-Powered Expense & Finance Platform
-
-**Description:**  
-Designed an AI-driven personal finance platform that goes beyond expense tracking to provide intelligent insights, predictions, and savings recommendations.
-
-**Tech Stack:**  
-React, TypeScript, FastAPI, PostgreSQL, AWS, Cognito, RTK Query, AI/RAG pipelines
-
-**Key Engineering Highlights:**  
-- Secure authentication using AWS Cognito (OAuth2 + PKCE)  
-- Expense categorization and trend analysis  
-- AI-based spending insights & optimization suggestions  
-- Designed scalable backend with token-based auth and clean architecture  
-- Focus on future mobile extensibility (iOS/Android ready backend)  
+**Tech:** React, TypeScript, Node.js, Express, PostgreSQL, Prisma, Socket.IO, AWS
 
 ---
 
-### 🧠 AI Real-Time Collaborative Code & Workspace
+### 2. Enterprise Search & Access Control Platform
+Worked on a large-scale enterprise platform with secure search, deterministic pagination, and strict authorization over large process libraries.
 
-**Description:**  
-Built a real-time collaborative editor/workspace supporting concurrent multi-user editing with conflict-free synchronization and AI assistance.
+**Highlights:**
+- Server-side search with stable pagination
+- Access-controlled query design
+- Aggregation pipelines and tag-based filtering
+- Elasticsearch tuning for relevance and speed
+- Performance and cost optimization
 
-**Tech Stack:**  
-React, Rust, WebSockets, CRDTs, Redis, PostgreSQL, AWS ECS/EKS
-
-**Key Engineering Highlights:**  
-- CRDT-based real-time sync (offline-friendly)  
-- Presence indicators and live cursors  
-- AI-assisted summaries, search, and action items  
-- Backend designed using Clean Architecture and CQRS (basic)  
-- Production-ready deployment using Docker and AWS  
+**Tech:** React, TypeScript, Node.js, MeteorJS, MongoDB, DocumentDB, Elasticsearch, AWS
 
 ---
 
-### 📊 JIRA Automation & Analytics Tools
+### 3. JIRA Automation & Analytics System
+Built backend automation services to sync JIRA issues, track due dates, and generate operational analytics.
 
-**Description:**  
-Built internal tools to automate JIRA data extraction, due-date tracking, and analytics to reduce manual reporting overhead.
+**Highlights:**
+- Scheduled data sync jobs
+- Retry-safe automation workflows
+- Due-date tracking and escalation logic
+- Dashboard-ready analytics pipelines
+- Reduced manual reporting effort
 
-**Tech Stack:**  
-React, Node.js, Express, PostgreSQL, MySQL, JIRA REST APIs, Metabase
-
-**Key Engineering Highlights:**  
-- Automated scheduled data sync using cron jobs  
-- Built due-date tracking & escalation workflows  
-- Designed analytics dashboards for operational visibility  
-- Reliable retry handling and structured logging  
-
----
----
-
-## 🏗️ Key Projects (Selected)
-
-### 1️⃣ Enterprise Process Search & Access-Control Platform (Siemens – Riffynx)
-
-**Description:**  
-Designed and enhanced a large-scale enterprise search platform supporting thousands of active users across extensive process libraries. The system enables secure, fast, and deterministic search over complex datasets with strict authorization constraints.
-
-**Tech Stack:**  
-React, TypeScript, Node.js, Express.js, MeteorJS, MongoDB / DocumentDB, Elasticsearch, AWS
-
-**Highlights:**  
-- Server-side search with pagination and deterministic sorting  
-- DocumentDB aggregation pipelines for tag-based AND filtering across millions of records  
-- Query-level RBAC authorization to prevent unauthorized access  
-- Index and projection optimizations to improve performance and reduce cost  
-- Elasticsearch tuning for latency and relevance  
+**Tech:** Node.js, Express, PostgreSQL, MySQL, JIRA APIs, Metabase
 
 ---
 
-### 2️⃣ Web Accessibility Testing Platform (WCAG 2.2)
+### 4. Accessibility Testing Platform
+Built an automated testing platform to scan applications for WCAG compliance and generate audit-ready reports.
 
-**Description:**  
-Built an automated accessibility testing platform aligned with WCAG 2.2 standards, enabling teams to validate accessibility compliance and generate audit-ready reports.
+**Highlights:**
+- Headless browser scan workflows
+- Rule-based validation engine
+- Excel-based compliance reports
+- Production deployment on AWS
+- Used by multiple teams
 
-**Tech Stack:**  
-React, Node.js, Express.js, Puppeteer, Cheerio, Axe-core, TypeScript, AWS
-
-**Highlights:**  
-- Automated accessibility scans using headless browsers  
-- Rule-based checks using Axe-core  
-- Excel report generation for audits and compliance  
-- Deployed on AWS and adopted by multiple teams  
+**Tech:** React, Node.js, Express, Puppeteer, Cheerio, TypeScript, AWS
 
 ---
 
-### 3️⃣ Color Contrast & OCR Testing Tool
+### 5. Color Contrast & OCR Validation Tool
+Developed a tool for contrast validation and OCR-based text extraction across multiple content formats.
 
-**Description:**  
-Developed a specialized tool to validate color contrast ratios and extract text using OCR across multiple content formats, improving accessibility and content quality checks.
+**Highlights:**
+- Color contrast checks for HTML, images, GIFs, EPUB
+- OCR-based extraction pipeline
+- Real-time progress logs
+- Slack, Teams, and Email notifications
 
-**Tech Stack:**  
-TypeScript, Python, PyTesseract, Node.js, Socket.IO, MongoDB
-
-**Highlights:**  
-- Color contrast validation for HTML, images, GIFs, and EPUB files  
-- OCR-based text extraction and analysis  
-- Real-time progress logs via Socket.IO  
-- Alert integrations with Slack, Teams, and Email  
+**Tech:** TypeScript, Python, Node.js, Socket.IO, MongoDB
 
 ---
 
-### 4️⃣ JIRA Automation Suite (Due Date Tracker & Data Miner)
+## Systems I Can Build
 
-**Description:**  
-Built automation tools to extract, track, and analyze JIRA data, reducing manual effort and enabling data-driven project insights.
-
-**Tech Stack:**  
-React, Node.js, Express.js, MySQL, PostgreSQL, JIRA REST APIs, AWS RDS, Metabase
-
-**Highlights:**  
-- Automated JIRA issue synchronization using scheduled jobs  
-- Due-date tracking and escalation workflows  
-- Analytics dashboards using Metabase  
-- Reliable scheduling with cron and retry handling  
+- Scalable Microservices Backend
+- Real-Time Chat System
+- Notification Service
+- Payment & Subscription Platform
+- Access-Controlled Search System
+- Queue-Based Async Processing System
+- Analytics & Reporting Platform
 
 ---
 
-### 5️⃣ AI Real-Time Collaborative Workspace
+## Certifications
 
-**Description:**  
-Designed a real-time collaborative workspace supporting multi-user editing with conflict-free synchronization and AI-assisted insights.
-
-**Tech Stack:**  
-React, Rust, WebSockets, CRDTs, PostgreSQL, Redis, AWS (ECS/EKS)
-
-**Highlights:**  
-- CRDT-based real-time synchronization  
-- Presence indicators and live cursor tracking  
-- Clean Architecture with CQRS (basic)  
-- AI-assisted summaries and search using RAG  
+- AWS Certified Developer – Associate
+- Team of the Quarter – NIIT Limited
+- Best Debut Award – NIIT Limited
+- Outstanding Performance – Tridiagonal Software
 
 ---
 
-## 🧠 System Design & Architecture
-
-I focus on **correctness first**, followed by **scalability, reliability, and cost efficiency**.
-
-**Comfortable With:**
-- Load balancing & horizontal scaling  
-- Pagination, caching, rate limiting  
-- Event-driven architectures  
-- Async processing using queues  
-- Retry strategies & DLQ handling  
-- Secure, idempotent APIs  
-
-**Systems I Can Design:**
-- URL Shortener (1M → 1B scale)  
-- Real-time Chat System  
-- Notification & Fanout System  
-- Metrics Logging Platform  
-- Access-controlled Search Systems  
-
----
-
-## ☁️ Cloud / Infra Architecture Mapping (AWS • GCP • Local)
-
-| Layer | AWS | GCP | Local / Dev (Infra) |
-|------|-----|-----|----------------------|
-| API | ALB / API Gateway | Cloud Load Balancing / API Gateway | Nginx / Traefik |
-| Compute | ECS Fargate / EKS / Lambda | Cloud Run / GKE / Cloud Functions | Docker Compose / Kubernetes (kind/minikube) |
-| Async | SQS / SNS | Pub/Sub / Cloud Tasks | Redis Streams / RabbitMQ (optional) |
-| Database | RDS (PostgreSQL/MySQL) | Cloud SQL (PostgreSQL/MySQL) | PostgreSQL/MySQL (Docker) |
-| Cache | ElastiCache (Redis) | Memorystore (Redis) | Redis (Docker) |
-| Storage + CDN | S3 + CloudFront | GCS + Cloud CDN | MinIO / Local FS + Nginx |
-| Observability | CloudWatch | Cloud Logging + Cloud Monitoring | Prometheus + Grafana + Loki (optional) |
-| Secrets | Secrets Manager / SSM Parameter Store | Secret Manager | .env + Docker secrets (or Vault) |
-| CI/CD | GitHub Actions / CodePipeline | Cloud Build | GitHub Actions (local deploy scripts) |
-
----
-
-## 🏆 Certifications & Recognition
-
-- 🏅 AWS Certified Developer – Associate (DVA-C02)
-- 🏆 Team of the Quarter – NIIT Limited
-- 🏆 Best Debut Award – NIIT Limited
-- 🏆 Outstanding Performance – Tridiagonal Software
-
----
-
-## 🎓 Education
+## Education
 
 **B.E. in Computer Science**  
 Sinhgad Institute of Technology and Science, Pune  
-CGPA: **9.16 / 10**
+**CGPA: 9.16 / 10**
 
 ---
 
 <p align="center">
-  <b>“Build systems that scale, remain secure, and are easy to operate in production.”</b>
+  <b>Building scalable, secure, and production-ready systems.</b>
 </p>
